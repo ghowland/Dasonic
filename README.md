@@ -4,7 +4,7 @@
 
  Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
 
-#### No plurals
+# No plurals
 
 - No plurals.  Ever.  Never.  Never, ever.
 	- Developers will have to remember or look-up whether this data was referred to in singular or plural form.
