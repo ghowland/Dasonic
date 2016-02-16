@@ -4,7 +4,9 @@
 
  Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
 
-#### No plurals.  Ever.  Never.  Never, ever.
+#### No plurals
+
+- No plurals.  Ever.  Never.  Never, ever.
 	- Developers will have to remember or look-up whether this data was referred to in singular or plural form.
 	- Some words change spelling significantly from singular to plural, and this is more true in languages other than english where many words do not become plural by just adding an "s" to them (or other deterministic character change).  Example:  "company", "companies".  Some words do not have well-known plural names, and might have unknown spellings:  "squid", "squidii" ; "dolphin", "pod"
 	- To make this easy on yourself, just change your thinking to always thinking of a reference, which could be singular or plural.  Then when you internally think about this data, you know it does not matter which it is, and so you do not need to have this label ever be written in the plural.  It is based on context as to whether there is only 1 or more than 1 possible results to the value of the label.
