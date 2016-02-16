@@ -1,6 +1,6 @@
 # Database Schema Naming Convention - DSNC - DaSoNiC - Dasonic
 
-### Spec Version: 0000
+#### Spec Version: 0000
 
  Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
 
