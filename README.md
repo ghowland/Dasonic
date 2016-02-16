@@ -2,7 +2,7 @@
 
 ### Spec Version: 0000
 
-#### Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
+ Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
 
 #### No plurals.  Ever.  Never.  Never, ever.
 	- Developers will have to remember or look-up whether this data was referred to in singular or plural form.
