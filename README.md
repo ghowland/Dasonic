@@ -98,7 +98,7 @@
 
 	- Any place where you find you dont know how to apply the current rules, just create a new rule, while trying to design how the consequences of that rule being used in all situations will effect the overall schema structures, and any downstream rules that use this rule as a basis.  The rules I am presenting were designed and refined in this manner, so if you do the same things, your rules should similarly become well-integrated and take many different things into account, while remaining fairly simple and composable.  Rules need time for adjustment to become very general, so feel free to make adjustments to any of my rules as well as new ones you add, because making changes and evaluating the results is what gives a deeper understanding of how the rules really work, and how to make them work for you better, and how to improve them more over time.
 
-# Reserved Field Named, For Consistency
+# Reserved Field Named, for Leveraging Consistency
 
 - Reserved field names:
 	- id: primary key, int, auto_increment (usually)
