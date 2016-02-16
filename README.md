@@ -92,7 +92,7 @@
 - Dont be afraid of long names.  This is all the context you will ever have about this data, except for documentation which you can be sure will not be as up-to-date as the schema itself.  Be self-documenting and do not choose short names for the data.  
 	- Only in situations like Column Store or Document databases where the column names are included in the data storage, and so need to be short.  In these cases, make a descriptive name map, and use them as lookups, so the field names are just short hashes and can be maximally unique without human reference being implied.  Always perform lookups on these names.
 
-# Make Up Your Own Rules for Cases Which Don't Fit.  Follow Them.
+# Make Up Your Own Rules for Special Cases
 
 - Make your own rules up any time there is a new case, and ensure those rules are followed just as much as any pre-existing rules.  The important part of Dasonic is not that these are the best rules, but that these rules are internally consistent, and lead to a more comprehensible, usable and scalable database schema.  You can replace these rules with any of your own rules and receive those differing benefits from how your rules fit together.
 
