@@ -1,4 +1,5 @@
-# Database Schema Naming Convention - DSNC - DaSoNiC - Dasonic
+# Database Schema Naming Convention - DSNC
+## DaSoNiC - Dasonic
 
 #### Spec Version: 0000
 
