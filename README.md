@@ -66,6 +66,20 @@
 
 	- All parts of the names are separated by underscores.  You can compare them visually to see what the prefixes are, it's pretty obvious when you look at them, which is additional visual comprehension information that is not available if you dont use a technique that provides this data, such as this one.
 
+# Foreign Key Field Names
+
+- Foreign Key Field/Columns names should be composed from the Table Name + Field Name, such as: "company_id" to reference "company.id"
+  - This allows immediate mapping to any field in another table, and makes creating the foreign keys and indexes a simple matter in the simple case.
+    - Another example:  if keying on a unique name in such as "user.username", the table field name would be: "user_username"
+
+- If there are multiple references to the same table fieldname, prefix them with their purpose, so the normal field name is the suffix.
+  - Example, if the normal foreign key field name would be "company_id", but you need to reference a Vendor company and a Service company, you would write:
+    - "vendor_company_id" and "service_company_id", and it is obvious that there is 2 "company.id" references, and they are of the type "vendor" and "service"
+      - Once these prefixes are selected, re-use them in every relevant location, so that you always prefix "vendor_" in the same methodology.  This is commenting what is being referenced.
+        - These prefixes will not remain unique over a large enough database, as there will be conflicting contexts.  Use the correct prefix for the context, which may overlap with other contexts, as long as it is the correct terminology in that context and there is not a context that requires both.
+          - If there are context that require both, and the prefixes will collide, then the prefixes should be made unique even if that makes one/some of the contexts read a bit weirder.
+            - Name space cleanliness is the highest priority, and consistent label usage will ensure this is the best it can be, using words which are not as distinct as unique integers as labels.  We use field names as mneuomic helpers, so this trade-off is worth it, as we are only human.
+
 # Flag Booleans
 
 - Flag Booleans are match tense, in English, using limited prefix tests:  "is_", "was_"
