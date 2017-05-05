@@ -1,7 +1,7 @@
 # Database Schema Naming Convention - DSNC
 ## DaSoNiC - Dasonic
 
-#### Spec Version: 0000
+#### Spec Version: 0001
 
  Can version this Spec, so that as changes are made, the exact version of the spec can be specified so that there is clarity of intention.
 
@@ -121,3 +121,6 @@
   - created_time: Record was created
   - updated_time: Record was updated
 
+# Commit to a Specific Variant of English
+
+- The spellings of some words, like "favourite", "cheque", and "colour", differs between Canadian, American, British, and other versions of English. For consistency's sake, decide which English to name things in and stick to it.
